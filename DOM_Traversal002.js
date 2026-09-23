@@ -1,0 +1,6 @@
+let product = document.querySelector("#product1")
+console.log(product.parentElement)
+console.log(product.previousElementSibling)
+console.log(product.nextElementSibling)
+console.log(product.parentElement.firstElementChild)
+console.log(product.parentElement.lastElementChild)
